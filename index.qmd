@@ -1,0 +1,25 @@
+---
+title: "CSIDS"
+image: resources/richard.jpeg
+about:
+  id: hero-heading
+  template: solana
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/csids
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/csids_
+title-block-banner: false
+---
+
+:::{#hero-heading}
+
+Consortium for Statistics in Disease Surveillance
+
+:::
+
+## Contact
+
+hello@csids.no

@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  title: "CSIDS"
+  favicon: favicon.png
+  navbar:
+    right:
+      - text: "Home"
+        href: index.html
+      - blog.qmd
+      - icon: github
+        href: https://github.com/csids
+format:
+  html:
+    theme: flatly
+    # css: styles.css
+    title-block-banner: "#b8e2f2"
+    title-block-banner-color: "#000000"
+
+
+
