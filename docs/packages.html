@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.231">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="A set of R packages developed to help solve problems that frequently occur when performing infectious disease surveillance. The splverse has been created by the Sykdomspulsen team (specialized in infectious disease surveillance), who use it every day to streamline and improve their pipelines and deliverables. The splverse has been used and improved throughout the COVID-19 pandemic, forming the basis of all of Sykdomspulsen’s products. To put it more succinctly: “All genuine knowledge originates in direct experience.”">
+
+<title>CSIDS - Packages / csverse</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>
+    .quarto-title-block .quarto-title-banner {
+      color: #000000;
+background: #b8e2f2;
+    }
+    </style>
+
+
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">CSIDS</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./packages.html" aria-current="page">
+ <span class="menu-text">Packages</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/csids"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Packages / csverse</h1>
+                  <div>
+        <div class="description">
+          <p>A set of R packages developed to help solve problems that frequently occur when performing infectious disease surveillance. The splverse has been created by the Sykdomspulsen team (specialized in infectious disease surveillance), who use it every day to streamline and improve their pipelines and deliverables. The splverse has been used and improved throughout the COVID-19 pandemic, forming the basis of all of Sykdomspulsen’s products. To put it more succinctly: “All genuine knowledge originates in direct experience.”</p>
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/hex_dependencies.png" class="img-fluid" width="2541"></p>
+</div>
+</div>
+<section id="installation-and-use" class="level2">
+<h2 class="anchored" data-anchor-id="installation-and-use">Installation and Use</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/splverse.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p>If you want to install the dev versions (or access packages that haven’t been released on CRAN), run <code>usethis::edit_r_profile()</code> to edit your <code>.Rprofile</code>.</p>
+<p>Then write in:</p>
+<pre><code>options(
+  repos = structure(c(
+    SPLVERSE  = "https://www.csids.no/drat/",
+    CRAN      = "https://cran.rstudio.com"
+  ))
+)</code></pre>
+<p>Save the file and restart R.</p>
+<p>You can now install <a href="https://www.csids.no/packages">csverse</a> packages from our <a href="https://www.csids.no.no/drat">drat repository</a>.</p>
+</section>
+<section id="the-splverse" class="level2">
+<h2 class="anchored" data-anchor-id="the-splverse">The splverse</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/attrib.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./attrib">attrib</a> is designed to make the process of calculating attributable mortalities and incident risk ratios efficient and easy.</p>
+<p><a href="./attrib">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/nowcast.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./nowcast">nowcast</a> helps you predict the present.</p>
+<p><a href="./nowcast">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/org.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./org">org</a> is system to help you organize projects. Most analyses have three (or more) main sections: code, results, and data, each with different requirements (version control/sharing/encryption). You provide folder locations and ‘org’ helps you take care of the details.</p>
+<p><a href="./org">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/plnr.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./plnr">plnr</a> is system to plan analyses within the mental model where you have one (or more) datasets and want to run either A) the same function multiple times with different arguments, or B) multiple functions. This is appropriate when you have multiple strata (e.g.&nbsp;locations, age groups) that you want to apply the same function to, or you have multiple variables (e.g.&nbsp;exposures) that you want to apply the same statistical method to, or when you are creating the output for a report and you need multiple different tables or graphs.</p>
+<p><a href="./plnr">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/splalert.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./splalert">splalert</a> helps create alerts from public health surveillance data.</p>
+<p><a href="./splalert">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/spldata.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./spldata">spldata</a> contains datasets relating to population in municipalities, municipality/county matching, and how different municipalities have merged/redistricted over time from 2006 to 2020.</p>
+<p><a href="./spldata">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/spldb.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./spldb">spldb</a> provides an abstracted system for easily working with databases with large datasets.</p>
+<p><a href="./spldb">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/splmaps.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./splmaps">splmaps</a> contains preformatted maps of Norway that generally don’t need geolibraries.</p>
+<p><a href="./splmaps">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/splshiny.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./splshiny">splshiny</a> contains helpful functions for creating Shiny websites.</p>
+<p><a href="./splshiny">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/splstyle.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./splstyle">splstyle</a> contains helpful functions for creating outputs in the style(s) used by FHI and Sykdomspulsen.</p>
+<p><a href="./splstyle">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/spltidy.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./spltidy">spltidy</a> contains helpful functions for cleaning data.</p>
+<p><a href="./spltidy">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/spltime.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./spltime">spltime</a> contains helpful functions for working with time.</p>
+<p><a href="./spltime">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/splutil.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./splutil">splutil</a> contains helpful functions to help with common base R problems.</p>
+<p><a href="./splutil">Go to docs…</a></p>
+<hr>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/spread.png" class="img-fluid" width="655"></p>
+</div>
+</div>
+<p><a href="./spread">spread</a> contains different infectious disease spread models. One is a stochastic SEIIaR (susceptible, exposed, infectious, infectious asymptomatic, recovered) metapopulation model that including commuting. Each location has a local infection system, while the locations are connected by people who commute each day. The model differentiates between day and night. During the day you can infect/be infected in the location where you work, while during the night you can infect/be infected in the location where you live. It is the same commuters who travel back and forth each day. At the start of a day, all commuters are sent to their work location, where they mix for 12 hours. The commuters are then sent to their respective home locations, where they mix for 12 hours.</p>
+<p><a href="./spread">Go to docs…</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

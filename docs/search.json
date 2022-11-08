@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "R-Package “org” (version 2022.7.20) Published on CRAN\n\n\n\n\n\n“org” is a system to help you organize projects. Most analyses have three (or more) main sections: code, results, and data, each with different requirements (version control/sharing/encryption). You provide folder locations and ‘org’ helps you take care of the details.\n\n\n\n\n\n\nJul 21, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n\n\nCustom Airflow Docker Operator (Poor-Man’s Kubernetes)\n\n\n\n\n\nAirflow is a platform to programmatically author, schedule, and monitor workflows data. Operators are the main building blocks that encapsulate logic to do a unit of work. We have created a custom Airflow operator that 1) checks a remote YAML file and 2) then takes a decision to do one of two actions. This allows us to create a “poor-man’s Kubernetes”.\n\n\n\n\n\n\nJul 18, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n\n\nR-Package “plnr” (version 2022.6.8) Published on CRAN\n\n\n\n\n\n“plnr” is a system to plan analyses within the mental model where you have one (or more) datasets and want to run either A) the same function multiple times with different arguments, or B) multiple functions. This is appropriate when you have multiple strata (e.g. locations, age groups) that you want to apply the same function to, or you have multiple variables (e.g. exposures) that you want to apply the same statistical method to, or when you are creating the output for a report and you need multiple different tables or graphs.\n\n\n\n\n\n\nJun 8, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n\n\nSykdomspulsen Receives Prize for Best Poster\n\n\n\n\n\nSykdomspulsen received the prize for best poster at Helse- og Kvalitetsregisterkonferansen 2021.\n\n\n\n\n\n\nNov 18, 2021\n\n\nRichard Aubrey White\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CSIDS",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     Twitter\n  \n\n      \nConsortium for Statistics in Disease Surveillance"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "CSIDS",
+    "section": "Contact",
+    "text": "Contact\nhello@csids.no"
+  },
+  {
+    "objectID": "packages.html#installation-and-use",
+    "href": "packages.html#installation-and-use",
+    "title": "Packages / csverse",
+    "section": "Installation and Use",
+    "text": "Installation and Use\n\n\n\n\n\nIf you want to install the dev versions (or access packages that haven’t been released on CRAN), run usethis::edit_r_profile() to edit your .Rprofile.\nThen write in:\noptions(\n  repos = structure(c(\n    SPLVERSE  = \"https://www.csids.no/drat/\",\n    CRAN      = \"https://cran.rstudio.com\"\n  ))\n)\nSave the file and restart R.\nYou can now install csverse packages from our drat repository."
+  },
+  {
+    "objectID": "packages.html#the-splverse",
+    "href": "packages.html#the-splverse",
+    "title": "Packages / csverse",
+    "section": "The splverse",
+    "text": "The splverse\n\n\n\n\n\nattrib is designed to make the process of calculating attributable mortalities and incident risk ratios efficient and easy.\nGo to docs…\n\n\n\n\n\n\nnowcast helps you predict the present.\nGo to docs…\n\n\n\n\n\n\norg is system to help you organize projects. Most analyses have three (or more) main sections: code, results, and data, each with different requirements (version control/sharing/encryption). You provide folder locations and ‘org’ helps you take care of the details.\nGo to docs…\n\n\n\n\n\n\nplnr is system to plan analyses within the mental model where you have one (or more) datasets and want to run either A) the same function multiple times with different arguments, or B) multiple functions. This is appropriate when you have multiple strata (e.g. locations, age groups) that you want to apply the same function to, or you have multiple variables (e.g. exposures) that you want to apply the same statistical method to, or when you are creating the output for a report and you need multiple different tables or graphs.\nGo to docs…\n\n\n\n\n\n\nsplalert helps create alerts from public health surveillance data.\nGo to docs…\n\n\n\n\n\n\nspldata contains datasets relating to population in municipalities, municipality/county matching, and how different municipalities have merged/redistricted over time from 2006 to 2020.\nGo to docs…\n\n\n\n\n\n\nspldb provides an abstracted system for easily working with databases with large datasets.\nGo to docs…\n\n\n\n\n\n\nsplmaps contains preformatted maps of Norway that generally don’t need geolibraries.\nGo to docs…\n\n\n\n\n\n\nsplshiny contains helpful functions for creating Shiny websites.\nGo to docs…\n\n\n\n\n\n\nsplstyle contains helpful functions for creating outputs in the style(s) used by FHI and Sykdomspulsen.\nGo to docs…\n\n\n\n\n\n\nspltidy contains helpful functions for cleaning data.\nGo to docs…\n\n\n\n\n\n\nspltime contains helpful functions for working with time.\nGo to docs…\n\n\n\n\n\n\nsplutil contains helpful functions to help with common base R problems.\nGo to docs…\n\n\n\n\n\n\nspread contains different infectious disease spread models. One is a stochastic SEIIaR (susceptible, exposed, infectious, infectious asymptomatic, recovered) metapopulation model that including commuting. Each location has a local infection system, while the locations are connected by people who commute each day. The model differentiates between day and night. During the day you can infect/be infected in the location where you work, while during the night you can infect/be infected in the location where you live. It is the same commuters who travel back and forth each day. At the start of a day, all commuters are sent to their work location, where they mix for 12 hours. The commuters are then sent to their respective home locations, where they mix for 12 hours.\nGo to docs…"
+  },
+  {
+    "objectID": "post/2021-11-18-poster-prize-for-sykdomspulsen/poster-prize-for-sykdomspulsen.html",
+    "href": "post/2021-11-18-poster-prize-for-sykdomspulsen/poster-prize-for-sykdomspulsen.html",
+    "title": "Sykdomspulsen Receives Prize for Best Poster",
+    "section": "",
+    "text": "Sykdomspulsen’s poster “Sykdomspulsen - An exciting and forward-looking infrastructure and website for the real-time surveillance of Covid-19, other infections, and deaths” received the prize for “Best Poster” at Helse- og Kvalitetsregisterkonferansen 2021.\nRead more about it here!.\n\nknitr::include_graphics(\"screenshot.png\")"
+  },
+  {
+    "objectID": "post/2022-06-08-plnr-version-2022-6-8-published-on-cran/plnr-version-2022-6-8-published-on-cran.html",
+    "href": "post/2022-06-08-plnr-version-2022-6-8-published-on-cran/plnr-version-2022-6-8-published-on-cran.html",
+    "title": "R-Package “plnr” (version 2022.6.8) Published on CRAN",
+    "section": "",
+    "text": "This blog post has also been posted here."
+  },
+  {
+    "objectID": "post/2022-06-08-plnr-version-2022-6-8-published-on-cran/plnr-version-2022-6-8-published-on-cran.html#changes-since-last-version",
+    "href": "post/2022-06-08-plnr-version-2022-6-8-published-on-cran/plnr-version-2022-6-8-published-on-cran.html#changes-since-last-version",
+    "title": "R-Package “plnr” (version 2022.6.8) Published on CRAN",
+    "section": "Changes since last version",
+    "text": "Changes since last version\nThe R-package “plnr” (version 2022.6.8) has been published on CRAN. “plnr” is a part of the splverse, a set of R packages developed to help solve problems that frequently occur when performing infectious disease surveillance. “plnr” has two vignettes that briefly show the mental model behind “plnr”:\n\n\n\n\n\n\n\n\nIntroduction to plnr\nAdding Analyses to a Plan"
+  },
+  {
+    "objectID": "post/2022-06-08-plnr-version-2022-6-8-published-on-cran/plnr-version-2022-6-8-published-on-cran.html#concept",
+    "href": "post/2022-06-08-plnr-version-2022-6-8-published-on-cran/plnr-version-2022-6-8-published-on-cran.html#concept",
+    "title": "R-Package “plnr” (version 2022.6.8) Published on CRAN",
+    "section": "Concept",
+    "text": "Concept\n\n\n\n\n\n\n\nBroad technical terms\n\n\n\nObject\nDescription\n\n\nargset\nA named list containing a set of arguments.\n\n\nanalysis\nThese are the fundamental units that are scheduled in plnr:\n\n1 argset\n1 (action) function that takes two arguments\n\ndata (named list)\nargset (named list)\n\n\n\n\nplan\nThis is the overarching “scheduler”:\n\n1 data pull\n1 list of analyses\n\n\n\nDifferent types of plans\n\n\n\nPlan Type\nDescription\n\n\nSingle-function plan\nSame action function applied multiple times with different argsets applied to the same datasets.\n\n\nMulti-function plan\nDifferent action functions applied to the same datasets.\n\n\nPlan Examples\n\n\n\nPlan Type\nExample\n\n\nSingle-function plan\nMultiple strata (e.g. locations, age groups) that you need to apply the same function to to (e.g. outbreak detection, trend detection, graphing).\n\n\nSingle-function plan\nMultiple variables (e.g. multiple outcomes, multiple exposures) that you need to apply the same statistical methods to (e.g. regression models, correlation plots).\n\n\nMulti-function plan\nCreating the output for a report (e.g. multiple different tables and graphs).\n\n\n\nIn brief, we work within the mental model where we have one (or more) datasets and we want to run multiple analyses on these datasets. These multiple analyses can take the form of:\n\nSingle-function plans: One action function (e.g. table_1) called multiple times with different argsets (e.g. year=2019, year=2020).\nMulti-function plans: Multiple action functions (e.g. table_1, table_2) called multiple times with different argsets (e.g. table_1: year=2019, while for table_2: year=2019 and year=2020)\n\nBy demanding that all analyses use the same data sources we can:\n\nBe efficient with requiring the minimal amount of data-pulling (this only happens once at the start).\nBetter enforce the concept that data-cleaning and analysis should be completely separate.\n\nBy demanding that all analysis functions only use two arguments (data and argset) we can:\n\nReduce mental fatigue by working within the same mental model for each analysis.\nMake it easier for analyses to be exchanged with each other and iterated on.\nEasily schedule the running of each analysis.\n\nBy including all of this in one Plan class, we can easily maintain a good overview of all the analyses (i.e. outputs) that need to be run."
+  },
+  {
+    "objectID": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html",
+    "href": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html",
+    "title": "Custom Airflow Docker Operator (Poor-Man’s Kubernetes)",
+    "section": "",
+    "text": "This blog post has also been posted here."
+  },
+  {
+    "objectID": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html#what-do-we-want",
+    "href": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html#what-do-we-want",
+    "title": "Custom Airflow Docker Operator (Poor-Man’s Kubernetes)",
+    "section": "What do we want?",
+    "text": "What do we want?\nSykdomspulsen Analytics uses Airflow to schedule its tasks.\n\n\n\n\n\nAirflow and Sykdomspulsen Analytics’ tasks can be run on Kubernetes. This can be seen in the below graph, where one Airflow implementation dispatches tasks to both Server 1 and Server 2. However, with such a small team there is always the risk of something going wrong with a complicated Kubernetes setup. It is therefore preferable to have a failback solution that is independent of Kubernetes. We have achieved this by installing a duplicate Airflow system on each of the servers using Docker-compose. Each Docker-compose Airflow instance can dispatch tasks to its own server.\n\n\n\n\n\nHowever, this means that we have anywhere between 1 to 3 duplicate Airflow DAGs running at any time. All of these will be reading and writing to the same databases. This is obviously not desirable. We must have only one Airflow instance operative at any time."
+  },
+  {
+    "objectID": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html#how-do-we-get-it",
+    "href": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html#how-do-we-get-it",
+    "title": "Custom Airflow Docker Operator (Poor-Man’s Kubernetes)",
+    "section": "How do we get it?",
+    "text": "How do we get it?\nIt is not easy to seamlessly turn on and turn off multiple Airflow instances. We can, however, alter the operators inside each Airflow instance to be functional or non-functional.\nIt is for this reason that we developed a custom Airflow Docker operator. This custom Airflow Docker operator:\n\nChecks an external YAML config file (https://raw.githubusercontent.com/USERNAME/REPO/main/airflow-dag-on-server.yaml) to see which server each DAG should be run on.\nChecks to see if this server is the correct one.\nIf this is not the correct server, change the command to be excecuted to: echo NOT CORRECT SERVER.\nExecutes the command inside the Docker container."
+  },
+  {
+    "objectID": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html#details",
+    "href": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html#details",
+    "title": "Custom Airflow Docker Operator (Poor-Man’s Kubernetes)",
+    "section": "Details",
+    "text": "Details\nhttps://raw.githubusercontent.com/USERNAME/REPO/main/airflow-dag-on-server.yaml\n---\ndag_1: \"server-1.tld\"\ndocker-compose.yml (If using Podman)\n  volumes:\n    - /var/run/podman/podman.sock:/var/run/docker.sock\n  environment:\n    HOST_HOSTNAME: $HOSTNAME\n/opt/airflow/plugins/operators/sc_operators.py accesses the environmental variable HOST_HOSTNAME that is passed through from docker-compose.yml.\nimport os\nimport requests\nimport time\nimport yaml\n\nfrom airflow.operators.docker_operator import DockerOperator\n\nclass SCDockerOperator(DockerOperator):\n    def __init__(self, **kwargs) -> None:\n        super().__init__(**kwargs)\n\n    def execute(self, context):\n        response = requests.get(\n            \"https://raw.githubusercontent.com/USERNAME/REPO/main/airflow-dag-on-server.yaml\",\n            headers = {\"Cache-Control\": \"no-cache\"}\n        )\n        unparsed_data = response.text\n    \n        data = yaml.safe_load(unparsed_data)\n        \n        print(data)\n        print(self.dag.dag_id)\n        \n        if self.dag.dag_id not in data:\n            self.command = '''bash -c \"echo NOT CORRECT SERVER\"'''\n        elif data[self.dag.dag_id] != os.getenv(\"HOST_HOSTNAME\"):\n            self.command = '''bash -c \"echo NOT CORRECT SERVER\"'''\n        else:\n            print(\"OK\")\n        \n        time.sleep(5)\n        retval = super().execute(context)\n        return retval\n/opt/airflow/dags/dag_1.py\nimport random\nfrom operators.sc_operators import SCDockerOperator\n\ntask = SCDockerOperator(\n    task_id='my_task',\n    image='localhost/splanalytics:latest',\n    container_name= 'my_task_' + str(random.randint(10,100000)),\n    api_version='auto',\n    auto_remove=True,\n    command=cmd,\n    docker_url='unix://var/run/docker.sock',\n    network_mode='bridge',\n    privileged = True,\n    dag=dag\n)"
+  },
+  {
+    "objectID": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html#conclusion",
+    "href": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html#conclusion",
+    "title": "Custom Airflow Docker Operator (Poor-Man’s Kubernetes)",
+    "section": "Conclusion",
+    "text": "Conclusion\nBy editing https://raw.githubusercontent.com/USERNAME/REPO/main/airflow-dag-on-server.yaml we can quickly choose which server will execute the desired task. This is an easy way to manually control identical installations of Airflow as a failback system."
+  },
+  {
+    "objectID": "post/2022-07-21-org-version-2022-7-20-published-on-cran/org-version-2022-7-20-published-on-cran.html",
+    "href": "post/2022-07-21-org-version-2022-7-20-published-on-cran/org-version-2022-7-20-published-on-cran.html",
+    "title": "R-Package “org” (version 2022.7.20) Published on CRAN",
+    "section": "",
+    "text": "This blog post has also been posted here."
+  },
+  {
+    "objectID": "post/2022-07-21-org-version-2022-7-20-published-on-cran/org-version-2022-7-20-published-on-cran.html#changes-since-last-version",
+    "href": "post/2022-07-21-org-version-2022-7-20-published-on-cran/org-version-2022-7-20-published-on-cran.html#changes-since-last-version",
+    "title": "R-Package “org” (version 2022.7.20) Published on CRAN",
+    "section": "Changes since last version",
+    "text": "Changes since last version\nThe R-package “org” (version 2022.7.20) has been published on CRAN. “org” is a part of the splverse, a set of R packages developed to help solve problems that frequently occur when performing infectious disease surveillance. A significant breaking change is that org::initialize_project now takes in env as an argument (the environment into which the functions will be sourced). It is now recommended to include env = .GlobalEnv into the function call.\n\n\n\n\n\n\n\norg::initialize_project(\n  env = .GlobalEnv,\n  home = \"/git/analyses/2019/analysis3/\",\n  results = \"/dropbox/analyses_results/2019/analysis3/\"\n  raw = \"/data/analyses/2019/analysis3/\"\n)"
+  },
+  {
+    "objectID": "post/2022-07-21-org-version-2022-7-20-published-on-cran/org-version-2022-7-20-published-on-cran.html#concept",
+    "href": "post/2022-07-21-org-version-2022-7-20-published-on-cran/org-version-2022-7-20-published-on-cran.html#concept",
+    "title": "R-Package “org” (version 2022.7.20) Published on CRAN",
+    "section": "Concept",
+    "text": "Concept\nThe concept behind org is fairly simple - most analyses have three main sections:\n\ncode\nresults\ndata\n\nYet each of these sections have extremely different requirements.\nCode should:\n\nBe version controlled\nBe publically accessible\nHave 1 analysis pipeline that logically and sequentially details all steps of the data cleaning, analysis, and result generation\n\nResults should:\n\nBe immediately shared with close collaborators\nHave each set of results saved and accessible, so that you can see how your results have changed over time (i.e. “if we run the code today, do we get similar results to yesterday?”)\n\nData should:\n\nBe encrypted (if sensitive)\nNot stored on the cloud (if sensitive)"
+  }
+]
