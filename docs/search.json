@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Consortium for Statistics in Disease Surveillance (CSIDS)",
     "section": "",
-    "text": "Github\n  \n  \n    \n     Twitter\n  \n\n      \nCSIDS (pronounced SEE-sids) is a group of researchers who are dedicated to improving the quality of statistics used in modern day disease surveillance. The founding team was responsible for developing and running the Norwegian Institute of Public Health’s automated surveillance platform (Sykdomspulsen) during the first three years of the COVID-19 pandemic."
+    "text": "Github\n  \n  \n    \n     Twitter\n  \n\n      \nCSIDS (pronounced SEE-sids) is a group of researchers who are dedicated to improving the quality of statistics used in modern day disease surveillance.\nThe founding team was responsible for developing and running the Norwegian Institute of Public Health’s automated surveillance platform (Sykdomspulsen) during the first three years of the COVID-19 pandemic."
   },
   {
     "objectID": "index.html#contact",
@@ -19,6 +19,13 @@
     "title": "Consortium for Statistics in Disease Surveillance (CSIDS)",
     "section": "Contact",
     "text": "Contact\nhello@csids.no"
+  },
+  {
+    "objectID": "members.html",
+    "href": "members.html",
+    "title": "Members",
+    "section": "",
+    "text": "Calvin Chiang is a experienced engineer with 10 years of industry experience. Calvin is working on the IT infrastructure.\nChi Zhang has submitted her PhD thesis on hospital Electronic Health Records representation and utilization at the University of Oslo. She has a MSc in Statistics from Imperial College London. Since Chi joined FHI in 2020, she has been working on the R-packages splverse that are key to the Sykdomspulsen infrastructure. Chi is responsible for NorMOMO (excess mortality surveillance in Norway). You can find Chi on Twitter\nGry Marysol Grøneng is the project leader of Sykdomspulsen. She is a veterinarian with a PhD in Epidemiology. She has worked with surveillance of infectious diseases since 2015.\nRichard Aubrey White completed his PhD in Biostatistics at Harvard University. He has previously worked on outbreaks/surveillance projects in Sierra Leone (Ebola), Mozambique (cholera), and Palestine (maternal health). He now works primarily on the infrastructure Sykdomspulsen Core and the R-package plnr."
   },
   {
     "objectID": "packages.html#installation-and-use",
