@@ -1,0 +1,221 @@
+---
+title: "Packages / csverse"
+description: |
+  A set of R packages developed to help solve problems that frequently occur when performing infectious disease surveillance.
+  The csverse has been created by the Sykdomspulsen team (specialized in infectious disease surveillance), who use it every 
+  day to streamline and improve their pipelines and deliverables. The csverse has been used and improved throughout the COVID-19 pandemic, forming the basis of all of Sykdomspulsen's products. To put it more succinctly: "All genuine knowledge originates in direct experience."
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+knitr::include_graphics("packages/hex_dependencies.png")
+```
+
+## Installation and Use
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/csverse.png")
+```
+
+If you want to install the dev versions (or access packages that haven't been released on CRAN), run `usethis::edit_r_profile()` to edit your `.Rprofile`. 
+
+Then write in:
+
+```
+options(
+  repos = structure(c(
+    csverse  = "https://www.csids.no/drat/",
+    CRAN      = "https://cran.rstudio.com"
+  ))
+)
+```
+
+Save the file and restart R.
+
+You can now install [csverse](https://www.csids.no/packages) packages from our [drat repository](https://www.csids.no.no/drat).
+
+## The csverse
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/attrib.png")
+```
+
+[attrib](./attrib) is designed to make the process of calculating attributable mortalities and incident risk ratios efficient and easy.
+
+[Go to docs...](./attrib)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/csalert.png")
+```
+
+[csalert](./csalert/) helps create alerts from public health surveillance data.
+
+[Go to docs...](./csalert/)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/csdata.png")
+```
+
+[csdata](./csdata/) contains datasets relating to population in municipalities, municipality/county matching, and how different municipalities have merged/redistricted over time from 2006 to 2020.
+
+[Go to docs...](./csdata/)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/csdb.png")
+```
+
+[csdb](./csdb/) provides an abstracted system for easily working with databases with large datasets.
+
+[Go to docs...](./csdb/)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/csmaps.png")
+```
+
+[csmaps](./csmaps/) contains preformatted maps of Norway that generally don't need geolibraries.
+
+[Go to docs...](./csmaps/)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/csstyle.png")
+```
+
+[csstyle](./csstyle/) contains helpful functions for creating outputs in the style(s) used by FHI and Sykdomspulsen.
+
+[Go to docs...](./csstyle/)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/cstidy.png")
+```
+
+[cstidy](./cstidy/) contains helpful functions for cleaning data.
+
+[Go to docs...](./cstidy/)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/cstime.png")
+```
+
+[cstime](./cstime/) contains helpful functions for working with time.
+
+[Go to docs...](./cstime/)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/csutil.png")
+```
+
+[csutil](./csutil/) contains helpful functions to help with common base R problems.
+
+[Go to docs...](./csutil/)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+#| fig-width: 1
+knitr::include_graphics("packages/nowcast.png")
+```
+
+[nowcast](./nowcast) helps you predict the present.
+
+[Go to docs...](./nowcast)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/org.png")
+```
+
+[org](./org) is system to help you organize projects. Most analyses have three (or more) main sections: code, results, and data, each with different requirements (version control/sharing/encryption). You provide folder locations and 'org' helps you take care of the details.
+
+[Go to docs...](./org)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/plnr.png")
+```
+
+[plnr](./plnr) is system to plan analyses within the mental model where you have one (or more) datasets and want to run either A) the same function multiple times with different arguments, or B) multiple functions. This is appropriate when you have multiple strata (e.g. locations, age groups) that you want to apply the same function to, or you have multiple variables (e.g. exposures) that you want to apply the same statistical method to, or when you are creating the output for a report and you need multiple different tables or graphs.
+
+[Go to docs...](./plnr)
+
+<br><br><br><br>
+

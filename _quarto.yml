@@ -10,12 +10,15 @@ website:
     right:
       - text: "Home"
         href: index.html
+      - text: "Packages"
+        href: packages.html
       - blog.qmd
+      - members.qmd
       - icon: github
         href: https://github.com/csids
 format:
   html:
-    theme: flatly
+    theme: journal
     # css: styles.css
     title-block-banner: "#b8e2f2"
     title-block-banner-color: "#000000"
