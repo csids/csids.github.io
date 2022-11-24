@@ -1,7 +1,7 @@
 ---
 title: "Packages / csverse"
 description: |
-  A set of R packages developed to help solve problems that frequently occur when performing infectious disease surveillance.
+  A set of R packages developed to help solve problems that frequently occur when performing  disease surveillance.
 editor_options: 
   chunk_output_type: console
 ---
@@ -45,7 +45,7 @@ You can now install [csverse](https://www.csids.no/packages) packages from our [
 knitr::include_graphics("packages/attrib.png")
 ```
 
-[attrib](./attrib) is designed to make the process of calculating attributable mortalities and incident risk ratios efficient and easy.
+[attrib](./attrib) provides functions for estimating the attributable burden of disease due to risk factors.
 
 [Go to docs...](./attrib)
 
@@ -105,7 +105,7 @@ knitr::include_graphics("packages/csdb.png")
 knitr::include_graphics("packages/csmaps.png")
 ```
 
-[csmaps](./csmaps/) contains preformatted maps of Norway that generally don't need geolibraries.
+[csmaps](./csmaps/) contains preformatted maps of Norway that don't need geolibraries.
 
 [Go to docs...](./csmaps/)
 
@@ -120,7 +120,7 @@ knitr::include_graphics("packages/csmaps.png")
 knitr::include_graphics("packages/csstyle.png")
 ```
 
-[csstyle](./csstyle/) contains helpful functions for creating outputs in the style(s) used by FHI and Sykdomspulsen.
+[csstyle](./csstyle/) is system for standardizing outputs (e.g. graphs, tables, reports). The standard tools for producing output are too flexible, allowing for too much variation and making it difficult to produce consistent outputs. This package focuses on producing a few limited outputs that consistently look the same.
 
 [Go to docs...](./csstyle/)
 
@@ -165,7 +165,7 @@ knitr::include_graphics("packages/cstime.png")
 knitr::include_graphics("packages/csutil.png")
 ```
 
-[csutil](./csutil/) contains helpful functions to help with common base R problems.
+[csutil](./csutil/) contains utility functions that help with common base-R problems relating to lists. Lists in base-R are very flexible. This package provides functions to quickly and easily characterize types of lists. That is, to identify if all elements in a list are null, data.frames, lists, or fully named lists. Other functionality is provided for the handling of lists, such as the easy splitting of lists into equally sized groups, and the unnesting of data.frames within fully named lists.
 
 [Go to docs...](./csutil/)
 
