@@ -2,8 +2,6 @@
 title: "Packages / csverse"
 description: |
   A set of R packages developed to help solve problems that frequently occur when performing infectious disease surveillance.
-  The csverse has been created by the Sykdomspulsen team (specialized in infectious disease surveillance), who use it every 
-  day to streamline and improve their pipelines and deliverables. The csverse has been used and improved throughout the COVID-19 pandemic, forming the basis of all of Sykdomspulsen's products. To put it more succinctly: "All genuine knowledge originates in direct experience."
 editor_options: 
   chunk_output_type: console
 ---

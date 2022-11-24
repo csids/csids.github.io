@@ -12,8 +12,7 @@ website:
         href: index.html
       - text: "Packages"
         href: packages.html
-      - blog.qmd
-      - members.qmd
+#      - blog.qmd
       - icon: github
         href: https://github.com/csids
 format:
