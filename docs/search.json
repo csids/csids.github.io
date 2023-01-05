@@ -117,5 +117,12 @@
     "title": "R-Package “org” (version 2022.7.20) Published on CRAN",
     "section": "Concept",
     "text": "Concept\nThe concept behind org is fairly simple - most analyses have three main sections:\n\ncode\nresults\ndata\n\nYet each of these sections have extremely different requirements.\nCode should:\n\nBe version controlled\nBe publically accessible\nHave 1 analysis pipeline that logically and sequentially details all steps of the data cleaning, analysis, and result generation\n\nResults should:\n\nBe immediately shared with close collaborators\nHave each set of results saved and accessible, so that you can see how your results have changed over time (i.e. “if we run the code today, do we get similar results to yesterday?”)\n\nData should:\n\nBe encrypted (if sensitive)\nNot stored on the cloud (if sensitive)"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Which Stats Method? provides a basic overview of general statistical methodology that can be useful in the areas of infectious diseases, environmental medicine, and labwork. By the end of this course, students will be able to identify appropriate statistical methods for a variety of circumstances.\nThis course will not teach students how to implement these statistical methods. The aim of this course is to enable the student to identify which methods are required for their study, allowing the student to identify their needs for subsequent methods courses, self-learning, or external help."
   }
 ]
