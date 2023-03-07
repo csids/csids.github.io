@@ -4,3 +4,6 @@
 .Ruserdata
 
 /.quarto/
+@eaDir
+.DS_Store
+

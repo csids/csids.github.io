@@ -120,7 +120,7 @@ knitr::include_graphics("packages/csmaps.png")
 knitr::include_graphics("packages/csstyle.png")
 ```
 
-[csstyle](./csstyle/) is system for standardizing outputs (e.g. graphs, tables, reports). The standard tools for producing output are too flexible, allowing for too much variation and making it difficult to produce consistent outputs. This package focuses on producing a few limited outputs that consistently look the same.
+[csstyle](./csstyle/) is a system for standardizing outputs (e.g. graphs, tables, reports). The standard tools for producing output are too flexible, allowing for too much variation and making it difficult to produce consistent outputs. This package focuses on producing a few limited outputs that consistently look the same.
 
 [Go to docs...](./csstyle/)
 
@@ -214,6 +214,21 @@ knitr::include_graphics("packages/plnr.png")
 [plnr](./plnr) is system to plan analyses within the mental model where you have one (or more) datasets and want to run either A) the same function multiple times with different arguments, or B) multiple functions. This is appropriate when you have multiple strata (e.g. locations, age groups) that you want to apply the same function to, or you have multiple variables (e.g. exposures) that you want to apply the same statistical method to, or when you are creating the output for a report and you need multiple different tables or graphs.
 
 [Go to docs...](./plnr)
+
+<br><br><br><br>
+
+***
+
+<br><br><br><br>
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/sc9.png")
+```
+
+[Surveillance Core 9](./sc9) ("sc9") is a free and open-source framework for real-time analysis and disease surveillance.
+
+[Go to docs...](./sc9)
 
 <br><br><br><br>
 
