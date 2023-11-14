@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Longitudinal Analysis for Surveillance teaches students to run “normal regressions” in situations where the data structure would ordinarily prohibit you from running regression models. These situations mostly pertain to clusters of correlated data.\nWhen dealing with longitudinal data, there are two kinds of analyses that can be performed:\n\n“Time series” analyses generally deal with one variable. The aim is to then predict the future only using the previous observations. A common example would be to predict tomorrow’s temperature, using today’s and yesterday’s temperature as exposures. We will not be focusing on these kinds of analyses in this course.\n“Regression analyses” are very similar to ordinary regressions that you have been working with for many years. The only difference is that they have more advanced data structures that your current methods cannot handle. For example, if you want to see how the number of tuberculosis patients (outcome) is affected by the number of immigrants to Norway (exposure) over a 20 year period, then the number of patients in each year might be associated with each other, which might break assumptions of the regression models that you normally use (independent residuals). To account for the advanced structure of the data (correlation between different years) we will use more advanced regression techniques. This will be the focus of the course."
-  },
-  {
-    "objectID": "resources.html#longitudinal-analysis-for-surveillance",
-    "href": "resources.html#longitudinal-analysis-for-surveillance",
-    "title": "Resources",
-    "section": "",
-    "text": "Longitudinal Analysis for Surveillance teaches students to run “normal regressions” in situations where the data structure would ordinarily prohibit you from running regression models. These situations mostly pertain to clusters of correlated data.\nWhen dealing with longitudinal data, there are two kinds of analyses that can be performed:\n\n“Time series” analyses generally deal with one variable. The aim is to then predict the future only using the previous observations. A common example would be to predict tomorrow’s temperature, using today’s and yesterday’s temperature as exposures. We will not be focusing on these kinds of analyses in this course.\n“Regression analyses” are very similar to ordinary regressions that you have been working with for many years. The only difference is that they have more advanced data structures that your current methods cannot handle. For example, if you want to see how the number of tuberculosis patients (outcome) is affected by the number of immigrants to Norway (exposure) over a 20 year period, then the number of patients in each year might be associated with each other, which might break assumptions of the regression models that you normally use (independent residuals). To account for the advanced structure of the data (correlation between different years) we will use more advanced regression techniques. This will be the focus of the course."
-  },
-  {
-    "objectID": "resources.html#which-stats-method",
-    "href": "resources.html#which-stats-method",
-    "title": "Resources",
-    "section": "Which Stats Method?",
-    "text": "Which Stats Method?\nWhich Stats Method? provides a basic overview of general statistical methodology that can be useful in the areas of infectious diseases, environmental medicine, and labwork. By the end of this course, students will be able to identify appropriate statistical methods for a variety of circumstances.\nThis course will not teach students how to implement these statistical methods. The aim of this course is to enable the student to identify which methods are required for their study, allowing the student to identify their needs for subsequent methods courses, self-learning, or external help."
+    "text": "R-Package “org” (version 2022.7.20) Published on CRAN\n\n\n\n\n\n“org” is a system to help you organize projects. Most analyses have three (or more) main sections: code, results, and data, each with different requirements (version control/sharing/encryption). You provide folder locations and ‘org’ helps you take care of the details.\n\n\n\n\n\n\nJul 21, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nCustom Airflow Docker Operator (Poor-Man’s Kubernetes)\n\n\n\n\n\nAirflow is a platform to programmatically author, schedule, and monitor workflows data. Operators are the main building blocks that encapsulate logic to do a unit of work. We have created a custom Airflow operator that 1) checks a remote YAML file and 2) then takes a decision to do one of two actions. This allows us to create a “poor-man’s Kubernetes”.\n\n\n\n\n\n\nJul 18, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nR-Package “plnr” (version 2022.6.8) Published on CRAN\n\n\n\n\n\n“plnr” is a system to plan analyses within the mental model where you have one (or more) datasets and want to run either A) the same function multiple times with different arguments, or B) multiple functions. This is appropriate when you have multiple strata (e.g. locations, age groups) that you want to apply the same function to, or you have multiple variables (e.g. exposures) that you want to apply the same statistical method to, or when you are creating the output for a report and you need multiple different tables or graphs.\n\n\n\n\n\n\nJun 8, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nSykdomspulsen Receives Prize for Best Poster\n\n\n\n\n\nSykdomspulsen received the prize for best poster at Helse- og Kvalitetsregisterkonferansen 2021.\n\n\n\n\n\n\nNov 18, 2021\n\n\nRichard Aubrey White\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "packages.html#installation-and-use",
@@ -123,7 +109,7 @@
     "href": "index.html",
     "title": "Consortium for Statistics in Disease Surveillance",
     "section": "",
-    "text": "Github\n  \n  \n    \n     Twitter\n  \n\n      \nCSIDS (pronounced SEE-sids) is a group of researchers who are dedicated to improving disease surveillance in the age of data science."
+    "text": "Github\n  \n  \n    \n     Twitter\n  \n\n      \nCSIDS (pronounced SEE-sids) is a group of researchers who are dedicated to improving disease surveillance in the age of data science.."
   },
   {
     "objectID": "index.html#contact",
@@ -133,10 +119,24 @@
     "text": "Contact\nhello@csids.no"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "R-Package “org” (version 2022.7.20) Published on CRAN\n\n\n\n\n\n“org” is a system to help you organize projects. Most analyses have three (or more) main sections: code, results, and data, each with different requirements (version control/sharing/encryption). You provide folder locations and ‘org’ helps you take care of the details.\n\n\n\n\n\n\nJul 21, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nCustom Airflow Docker Operator (Poor-Man’s Kubernetes)\n\n\n\n\n\nAirflow is a platform to programmatically author, schedule, and monitor workflows data. Operators are the main building blocks that encapsulate logic to do a unit of work. We have created a custom Airflow operator that 1) checks a remote YAML file and 2) then takes a decision to do one of two actions. This allows us to create a “poor-man’s Kubernetes”.\n\n\n\n\n\n\nJul 18, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nR-Package “plnr” (version 2022.6.8) Published on CRAN\n\n\n\n\n\n“plnr” is a system to plan analyses within the mental model where you have one (or more) datasets and want to run either A) the same function multiple times with different arguments, or B) multiple functions. This is appropriate when you have multiple strata (e.g. locations, age groups) that you want to apply the same function to, or you have multiple variables (e.g. exposures) that you want to apply the same statistical method to, or when you are creating the output for a report and you need multiple different tables or graphs.\n\n\n\n\n\n\nJun 8, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nSykdomspulsen Receives Prize for Best Poster\n\n\n\n\n\nSykdomspulsen received the prize for best poster at Helse- og Kvalitetsregisterkonferansen 2021.\n\n\n\n\n\n\nNov 18, 2021\n\n\nRichard Aubrey White\n\n\n\n\n\n\nNo matching items"
+    "text": "Longitudinal Analysis for Surveillance teaches students to run “normal regressions” in situations where the data structure would ordinarily prohibit you from running regression models. These situations mostly pertain to clusters of correlated data.\nWhen dealing with longitudinal data, there are two kinds of analyses that can be performed:\n\n“Time series” analyses generally deal with one variable. The aim is to then predict the future only using the previous observations. A common example would be to predict tomorrow’s temperature, using today’s and yesterday’s temperature as exposures. We will not be focusing on these kinds of analyses in this course.\n“Regression analyses” are very similar to ordinary regressions that you have been working with for many years. The only difference is that they have more advanced data structures that your current methods cannot handle. For example, if you want to see how the number of tuberculosis patients (outcome) is affected by the number of immigrants to Norway (exposure) over a 20 year period, then the number of patients in each year might be associated with each other, which might break assumptions of the regression models that you normally use (independent residuals). To account for the advanced structure of the data (correlation between different years) we will use more advanced regression techniques. This will be the focus of the course."
+  },
+  {
+    "objectID": "resources.html#longitudinal-analysis-for-surveillance",
+    "href": "resources.html#longitudinal-analysis-for-surveillance",
+    "title": "Resources",
+    "section": "",
+    "text": "Longitudinal Analysis for Surveillance teaches students to run “normal regressions” in situations where the data structure would ordinarily prohibit you from running regression models. These situations mostly pertain to clusters of correlated data.\nWhen dealing with longitudinal data, there are two kinds of analyses that can be performed:\n\n“Time series” analyses generally deal with one variable. The aim is to then predict the future only using the previous observations. A common example would be to predict tomorrow’s temperature, using today’s and yesterday’s temperature as exposures. We will not be focusing on these kinds of analyses in this course.\n“Regression analyses” are very similar to ordinary regressions that you have been working with for many years. The only difference is that they have more advanced data structures that your current methods cannot handle. For example, if you want to see how the number of tuberculosis patients (outcome) is affected by the number of immigrants to Norway (exposure) over a 20 year period, then the number of patients in each year might be associated with each other, which might break assumptions of the regression models that you normally use (independent residuals). To account for the advanced structure of the data (correlation between different years) we will use more advanced regression techniques. This will be the focus of the course."
+  },
+  {
+    "objectID": "resources.html#which-stats-method",
+    "href": "resources.html#which-stats-method",
+    "title": "Resources",
+    "section": "Which Stats Method?",
+    "text": "Which Stats Method?\nWhich Stats Method? provides a basic overview of general statistical methodology that can be useful in the areas of infectious diseases, environmental medicine, and labwork. By the end of this course, students will be able to identify appropriate statistical methods for a variety of circumstances.\nThis course will not teach students how to implement these statistical methods. The aim of this course is to enable the student to identify which methods are required for their study, allowing the student to identify their needs for subsequent methods courses, self-learning, or external help."
   }
 ]
