@@ -1,6 +1,6 @@
 ---
-title: "Consortium for Statistics in Disease Surveillance (CSIDS)"
-image: resources/epicurve.png
+title: "Consortium for Statistics in Disease Surveillance"
+image: resources/logo/logo_round_blue_transparentBG.svg
 about:
   id: hero-heading
   template: solana
@@ -23,3 +23,4 @@ CSIDS (pronounced SEE-sids) is a group of researchers who are dedicated to impro
 ## Contact
 
 hello@csids.no
+

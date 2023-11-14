@@ -2,16 +2,50 @@ project:
   type: website
   output-dir: docs
 
-
 website:
   title: "CSIDS"
+  body-header: <script data-goatcounter="https://csidsno.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   favicon: favicon.png
   navbar:
+    title: false
+    logo: "resources/logo/logo_full_white.png"
     right:
       - text: "Home"
         href: index.html
       - text: "Packages"
-        href: packages.html
+        menu:
+        - text: Home
+          href: packages.html
+        - text: -------
+        - text: "csverse"
+        - text: attrib
+          href: https://www.csids.no/attrib/
+        - text: covidnor
+          href: https://www.csids.no/covidnor/
+        - text: csalert
+          href: https://www.csids.no/csalert/
+        - text: csdata
+          href: https://www.csids.no/csdata/
+        - text: csdb
+          href: https://www.csids.no/csdb/
+        - text: csmaps
+          href: https://www.csids.no/csmaps/
+        - text: csstyle
+          href: https://www.csids.no/csstyle/
+        - text: cstidy
+          href: https://www.csids.no/cstidy/
+        - text: cstime
+          href: https://www.csids.no/cstime/
+        - text: csutil
+          href: https://www.csids.no/csutil/
+        - text: nowcast
+          href: https://www.csids.no/nowcast/
+        - text: org
+          href: https://www.csids.no/org/
+        - text: plnr
+          href: https://www.csids.no/plnr/
+        - text: sc9
+          href: https://www.csids.no/sc9/
       - text: "Resources"
         href: resources.html
 #      - blog.qmd
@@ -19,10 +53,7 @@ website:
         href: https://github.com/csids
 format:
   html:
-    theme: journal
-    # css: styles.css
-    title-block-banner: "#b8e2f2"
-    title-block-banner-color: "#000000"
-
+    css: styles.css
+    include-after-body: footer.html
 
 
