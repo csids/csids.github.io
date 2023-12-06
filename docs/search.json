@@ -110,5 +110,26 @@
     "title": "Consortium for Statistics in Disease Surveillance",
     "section": "Contact",
     "text": "Contact\nhello@csids.no"
+  },
+  {
+    "objectID": "get_involved.html",
+    "href": "get_involved.html",
+    "title": "Get involved",
+    "section": "",
+    "text": "Contribute to CSIDS / csverse\nThe CSIDS welcomes contributions from the R and public health community. You can\n\nprovide feedback on our R packages;\nfile issues;\nimprove the documentation and use cases;\nfix a bug by creating a Pull Request\n\nThe CSIDS group looks forward to hearing from you!\n\nContact\nRichard Aubrey White @raubreywhite\nChi Zhang @andreaczhang\nBeatriz @bedavs"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About CSIDS",
+    "section": "",
+    "text": "CSIDS: the Consortium for Statistics in Disease Surveillance (previously Sykdomspulsen) is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\n\n\ncsverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\n\n\n\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\n\n\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)\n\n======= &gt;&gt;&gt;&gt;&gt;&gt;&gt; 2cd852ce0489abdbbd2633efb30dda9aacd3c847:about.qmd"
+  },
+  {
+    "objectID": "about.html#overview",
+    "href": "about.html#overview",
+    "title": "About CSIDS",
+    "section": "",
+    "text": "CSIDS: the Consortium for Statistics in Disease Surveillance (previously Sykdomspulsen) is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\n\n\ncsverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\n\n\n\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\n\n\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)\n\n======= &gt;&gt;&gt;&gt;&gt;&gt;&gt; 2cd852ce0489abdbbd2633efb30dda9aacd3c847:about.qmd"
   }
 ]

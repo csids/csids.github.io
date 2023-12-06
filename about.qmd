@@ -37,3 +37,5 @@ In November 2022, the core components of Sykdomspulsen and splverse R packages h
 <img src="resources/posters/poster.png" width="600"/>
 
 
+=======
+>>>>>>> 2cd852ce0489abdbbd2633efb30dda9aacd3c847:about.qmd
