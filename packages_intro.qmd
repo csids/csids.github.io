@@ -1,5 +1,5 @@
 ---
-title: "csverse"
+title: "Introduction to `csverse`"
 description: |
   A set of R packages developed to help solve problems that frequently occur when performing  disease surveillance.
 editor_options: 

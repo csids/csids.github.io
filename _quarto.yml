@@ -14,44 +14,34 @@ website:
         href: index.qmd
       - text: "Packages"
         menu:
-        - text: "csverse"
-          href: packages_overview.qmd
-        - text: "Get Started"
-          href: packages_example.qmd
-        - text: "Public Health Surveillance"
-        - text: csalert
-          href: https://www.csids.no/csalert/
+        - text: "Introduction"
+          href: packages_intro.qmd
+        - text: -------
         - text: attrib
           href: https://www.csids.no/attrib/
-
-        - text: -------
-        - text: "Structured Data"
+        - text: csalert
+          href: https://www.csids.no/csalert/
         - text: csdata
           href: https://www.csids.no/csdata/
+        - text: csdb
+          href: https://www.csids.no/csdb/
         - text: csmaps
           href: https://www.csids.no/csmaps/
-        - text: respiranor
-          href: https://www.csids.no/respiranor/
-
-        - text: -------
-        - text: "Helper Functions"
-        - text: csstyle
-          href: https://www.csids.no/csstyle/
         - text: cstidy
           href: https://www.csids.no/cstidy/
         - text: cstime
           href: https://www.csids.no/cstime/
         - text: csutil
           href: https://www.csids.no/csutil/
-        - text: csdb
-          href: https://www.csids.no/csdb/
-
-        - text: -------
-        - text: "Analysis Planning"
         - text: org
           href: https://www.csids.no/org/
         - text: plnr
           href: https://www.csids.no/plnr/
+        - text: respiranor
+          href: https://www.csids.no/respiranor/
+
+        #- text: csstyle
+        #  href: https://www.csids.no/csstyle/
         - text: sc9
           href: https://www.csids.no/sc9/
 #      - blog.qmd
