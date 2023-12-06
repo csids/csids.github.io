@@ -7,20 +7,6 @@
     "text": "R-Package “org” (version 2022.7.20) Published on CRAN\n\n\n\n\n\n“org” is a system to help you organize projects. Most analyses have three (or more) main sections: code, results, and data, each with different requirements (version control/sharing/encryption). You provide folder locations and ‘org’ helps you take care of the details.\n\n\n\n\n\n\nJul 21, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nCustom Airflow Docker Operator (Poor-Man’s Kubernetes)\n\n\n\n\n\nAirflow is a platform to programmatically author, schedule, and monitor workflows data. Operators are the main building blocks that encapsulate logic to do a unit of work. We have created a custom Airflow operator that 1) checks a remote YAML file and 2) then takes a decision to do one of two actions. This allows us to create a “poor-man’s Kubernetes”.\n\n\n\n\n\n\nJul 18, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nR-Package “plnr” (version 2022.6.8) Published on CRAN\n\n\n\n\n\n“plnr” is a system to plan analyses within the mental model where you have one (or more) datasets and want to run either A) the same function multiple times with different arguments, or B) multiple functions. This is appropriate when you have multiple strata (e.g. locations, age groups) that you want to apply the same function to, or you have multiple variables (e.g. exposures) that you want to apply the same statistical method to, or when you are creating the output for a report and you need multiple different tables or graphs.\n\n\n\n\n\n\nJun 8, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nSykdomspulsen Receives Prize for Best Poster\n\n\n\n\n\nSykdomspulsen received the prize for best poster at Helse- og Kvalitetsregisterkonferansen 2021.\n\n\n\n\n\n\nNov 18, 2021\n\n\nRichard Aubrey White\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Consortium for Statistics in Disease Surveillance",
-    "section": "",
-    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n\n      \nCSIDS (pronounced SEE-sids) is a group of researchers who are dedicated to improving disease surveillance in the age of data science."
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Consortium for Statistics in Disease Surveillance",
-    "section": "Contact",
-    "text": "Contact\nhello@csids.no"
-  },
-  {
     "objectID": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html",
     "href": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html",
     "title": "Custom Airflow Docker Operator (Poor-Man’s Kubernetes)",
@@ -110,5 +96,19 @@
     "title": "csverse",
     "section": "Installation and Use",
     "text": "Installation and Use\n\n\n\n\n\nIf you want to install the dev versions (or access packages that haven’t been released on CRAN), run usethis::edit_r_profile() to edit your .Rprofile.\nThen write in:\noptions(\n  repos = structure(c(\n    csverse = \"https://www.csids.no/drat/\",\n    CRAN    = \"https://cran.rstudio.com\"\n  ))\n)\nSave the file and restart R.\nYou can now install csverse packages from our drat repository."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Consortium for Statistics in Disease Surveillance",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n\n      \nCSIDS (pronounced SEE-sids) is a group of researchers who are dedicated to improving disease surveillance in the age of data science."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Consortium for Statistics in Disease Surveillance",
+    "section": "Contact",
+    "text": "Contact\nhello@csids.no"
   }
 ]
