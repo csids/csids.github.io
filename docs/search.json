@@ -4,7 +4,7 @@
     "href": "packages.html#installation-and-use",
     "title": "Introduction to the csverse",
     "section": "Installation and Use",
-    "text": "Installation and Use\n\n\n\n\n\nIf you want to install the dev versions (or access packages that haven’t been released on CRAN), run usethis::edit_r_profile() to edit your .Rprofile.\nThen write in:\noptions(\n  repos = structure(c(\n    csverse = \"https://www.csids.no/drat/\",\n    CRAN    = \"https://cran.rstudio.com\"\n  ))\n)\nSave the file and restart R.\nYou can now install csverse packages from our drat repository."
+    "text": "Installation and Use\nIf you want to install the dev versions (or access packages that haven’t been released on CRAN), run usethis::edit_r_profile() to edit your .Rprofile.\nThen write in:\noptions(\n  repos = structure(c(\n    csverse = \"https://www.csids.no/drat/\",\n    CRAN    = \"https://cran.rstudio.com\"\n  ))\n)\nSave the file and restart R.\nYou can now install csverse packages from our drat repository."
   },
   {
     "objectID": "about.html",
