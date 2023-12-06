@@ -8,7 +8,7 @@
 
 <meta name="description" content="A set of R packages developed to help solve problems that frequently occur when performing disease surveillance.">
 
-<title>CSIDS - Examples</title>
+<title>CSIDS - Introduction to csverse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -93,12 +93,8 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-packages">    
         <li>
-    <a class="dropdown-item" href="./packages_overview.html" rel="" target="">
- <span class="dropdown-text">csverse</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./packages_example.html" rel="" target="">
- <span class="dropdown-text">Get Started</span></a>
+    <a class="dropdown-item" href="./packages_intro.html" rel="" target="">
+ <span class="dropdown-text">Introduction</span></a>
   </li>  
         <li class="dropdown-header">Public Health Surveillance</li>
         <li>
@@ -192,13 +188,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Examples</h1>
+<h1 class="title">Introduction to <code>csverse</code></h1>
 </div>
 
 <div>
@@ -218,8 +216,31 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<script data-goatcounter="https://csidsno.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script><div class="cell">
+<div class="cell-output-display">
+<p><img src="packages/hex_dependencies.png" class="img-fluid" width="2523"></p>
+</div>
+</div>
+<section id="installation-and-use" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="installation-and-use">Installation and Use</h2>
+<div class="cell page-columns page-full">
 
-<script data-goatcounter="https://csidsno.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<p><img src="packages/csverse.png" class="img-fluid" width="655"></p>
+</div></div></div>
+<p>If you want to install the dev versions (or access packages that haven’t been released on CRAN), run <code>usethis::edit_r_profile()</code> to edit your <code>.Rprofile</code>.</p>
+<p>Then write in:</p>
+<pre><code>options(
+  repos = structure(c(
+    csverse = "https://www.csids.no/drat/",
+    CRAN    = "https://cran.rstudio.com"
+  ))
+)</code></pre>
+<p>Save the file and restart R.</p>
+<p>You can now install <a href="https://www.csids.no/packages">csverse</a> packages from our <a href="https://www.csids.no.no/drat">drat repository</a>.</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <footer>
