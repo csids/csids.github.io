@@ -2,7 +2,7 @@
   {
     "objectID": "packages.html#installation-and-use",
     "href": "packages.html#installation-and-use",
-    "title": "Introduction to csverse",
+    "title": "Introduction to the csverse",
     "section": "Installation and Use",
     "text": "Installation and Use\n\n\n\n\n\nIf you want to install the dev versions (or access packages that haven’t been released on CRAN), run usethis::edit_r_profile() to edit your .Rprofile.\nThen write in:\noptions(\n  repos = structure(c(\n    csverse = \"https://www.csids.no/drat/\",\n    CRAN    = \"https://cran.rstudio.com\"\n  ))\n)\nSave the file and restart R.\nYou can now install csverse packages from our drat repository."
   },
@@ -130,6 +130,6 @@
     "href": "get_involved.html",
     "title": "Get involved",
     "section": "",
-    "text": "Contribute to CSIDS / csverse\nThe CSIDS welcomes contributions from the R and public health community. You can\n\nprovide feedback on our R packages;\nfile issues;\nimprove the documentation and use cases;\nfix a bug by creating a Pull Request\n\nThe CSIDS group looks forward to hearing from you!\n\nContact\nRichard Aubrey White @raubreywhite\nChi Zhang @andreaczhang\nBeatriz @bedavs"
+    "text": "CSIDS welcomes contributions from the R and public health community. You can\n\nprovide feedback on our R packages;\nfile issues;\nimprove the documentation and use cases;\nfix a bug by creating a Pull Request\n\nCSIDS looks forward to hearing from you!\n\nContact\nRichard Aubrey White @raubreywhite\nChi Zhang @andreaczhang\nBeatriz @bedavs"
   }
 ]
