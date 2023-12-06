@@ -11,25 +11,30 @@ website:
     logo: "resources/logo/logo_full_white.png"
     right:
       - text: "Home"
-        href: index.html
+        href: index.qmd
       - text: "Packages"
         menu:
-        - text: Home
-          href: packages.html
-        - text: -------
         - text: "csverse"
-        - text: attrib
-          href: https://www.csids.no/attrib/
-        - text: covidnor
-          href: https://www.csids.no/covidnor/
+          href: packages_overview.qmd
+        - text: "Get Started"
+          href: packages_example.qmd
+        - text: "Public Health Surveillance"
         - text: csalert
           href: https://www.csids.no/csalert/
+        - text: attrib
+          href: https://www.csids.no/attrib/
+
+        - text: -------
+        - text: "Structured Data"
         - text: csdata
           href: https://www.csids.no/csdata/
-        - text: csdb
-          href: https://www.csids.no/csdb/
         - text: csmaps
           href: https://www.csids.no/csmaps/
+        - text: respiranor
+          href: https://www.csids.no/respiranor/
+
+        - text: -------
+        - text: "Helper Functions"
         - text: csstyle
           href: https://www.csids.no/csstyle/
         - text: cstidy
@@ -38,17 +43,26 @@ website:
           href: https://www.csids.no/cstime/
         - text: csutil
           href: https://www.csids.no/csutil/
-        - text: nowcast
-          href: https://www.csids.no/nowcast/
+        - text: csdb
+          href: https://www.csids.no/csdb/
+
+        - text: -------
+        - text: "Analysis Planning"
         - text: org
           href: https://www.csids.no/org/
         - text: plnr
           href: https://www.csids.no/plnr/
         - text: sc9
           href: https://www.csids.no/sc9/
-#      - text: "Resources"
-#        href: resources.html
 #      - blog.qmd
+      - text: "About"
+        menu:
+        - text: "About CSIDS"
+          href: about_csids.qmd
+        - text: "Get involved"
+          href: about_get_involved.qmd
+
+
       - icon: github
         href: https://github.com/csids
 format:

@@ -8,9 +8,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/csids
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/csids_
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/company/97384045/admin/feed/posts/?feedType=following
 title-block-banner: false
 ---
 

@@ -1,0 +1,39 @@
+---
+title: "csverse"
+description: |
+  A set of R packages developed to help solve problems that frequently occur when performing  disease surveillance.
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+knitr::include_graphics("packages/hex_dependencies.png")
+```
+
+## Installation and Use
+
+```{r}
+#| column: margin
+knitr::include_graphics("packages/csverse.png")
+```
+
+If you want to install the dev versions (or access packages that haven't been released on CRAN), run `usethis::edit_r_profile()` to edit your `.Rprofile`. 
+
+Then write in:
+
+```
+options(
+  repos = structure(c(
+    csverse = "https://www.csids.no/drat/",
+    CRAN    = "https://cran.rstudio.com"
+  ))
+)
+```
+
+Save the file and restart R.
+
+You can now install [csverse](https://www.csids.no/packages) packages from our [drat repository](https://www.csids.no.no/drat).

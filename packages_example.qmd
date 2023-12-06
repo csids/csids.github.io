@@ -1,0 +1,11 @@
+---
+title: "Examples"
+description: |
+  A set of R packages developed to help solve problems that frequently occur when performing  disease surveillance.
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
