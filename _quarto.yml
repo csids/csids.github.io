@@ -17,41 +17,47 @@ website:
         - text: "Introduction"
           href: packages_intro.qmd
         - text: -------
-        - text: attrib
-          href: https://www.csids.no/attrib/
-        - text: csalert
-          href: https://www.csids.no/csalert/
-        - text: csdata
-          href: https://www.csids.no/csdata/
+        - text: Analysis planning
+        - text: org
+          href: https://www.csids.no/org/
+        - text: plnr
+          href: https://www.csids.no/plnr/
+        - text: sc9
+          href: https://www.csids.no/sc9/
+        - text: -------
+        - text: Helper functions
         - text: csdb
           href: https://www.csids.no/csdb/
-        - text: csmaps
-          href: https://www.csids.no/csmaps/
+        - text: csstyle
+          href: https://www.csids.no/csstyle/
         - text: cstidy
           href: https://www.csids.no/cstidy/
         - text: cstime
           href: https://www.csids.no/cstime/
         - text: csutil
           href: https://www.csids.no/csutil/
-        - text: org
-          href: https://www.csids.no/org/
-        - text: plnr
-          href: https://www.csids.no/plnr/
+        - text: -------
+        - text: Surveillance
+        - text: attrib
+          href: https://www.csids.no/attrib/
+        - text: csalert
+          href: https://www.csids.no/csalert/
+        - text: -------
+        - text: Structural data
+        - text: csdata
+          href: https://www.csids.no/csdata/
+        - text: csmaps
+          href: https://www.csids.no/csmaps/
+        - text: -------
+        - text: Historical data
         - text: respiranor
           href: https://www.csids.no/respiranor/
-
-        #- text: csstyle
-        #  href: https://www.csids.no/csstyle/
-        - text: sc9
-          href: https://www.csids.no/sc9/
-#      - blog.qmd
       - text: "About"
         menu:
         - text: "About CSIDS"
-          href: about_csids.qmd
+          href: about.qmd
         - text: "Get involved"
-          href: about_get_involved.qmd
-
+          href: get_involved.qmd
 
       - icon: github
         href: https://github.com/csids
