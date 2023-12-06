@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "R-Package “org” (version 2022.7.20) Published on CRAN\n\n\n\n\n\n“org” is a system to help you organize projects. Most analyses have three (or more) main sections: code, results, and data, each with different requirements (version control/sharing/encryption). You provide folder locations and ‘org’ helps you take care of the details.\n\n\n\n\n\n\nJul 21, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nCustom Airflow Docker Operator (Poor-Man’s Kubernetes)\n\n\n\n\n\nAirflow is a platform to programmatically author, schedule, and monitor workflows data. Operators are the main building blocks that encapsulate logic to do a unit of work. We have created a custom Airflow operator that 1) checks a remote YAML file and 2) then takes a decision to do one of two actions. This allows us to create a “poor-man’s Kubernetes”.\n\n\n\n\n\n\nJul 18, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nR-Package “plnr” (version 2022.6.8) Published on CRAN\n\n\n\n\n\n“plnr” is a system to plan analyses within the mental model where you have one (or more) datasets and want to run either A) the same function multiple times with different arguments, or B) multiple functions. This is appropriate when you have multiple strata (e.g. locations, age groups) that you want to apply the same function to, or you have multiple variables (e.g. exposures) that you want to apply the same statistical method to, or when you are creating the output for a report and you need multiple different tables or graphs.\n\n\n\n\n\n\nJun 8, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nSykdomspulsen Receives Prize for Best Poster\n\n\n\n\n\nSykdomspulsen received the prize for best poster at Helse- og Kvalitetsregisterkonferansen 2021.\n\n\n\n\n\n\nNov 18, 2021\n\n\nRichard Aubrey White\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "packages_intro.html#installation-and-use",
     "href": "packages_intro.html#installation-and-use",
     "title": "Introduction to csverse",
@@ -35,13 +28,6 @@
     "text": "Concept\nThe concept behind org is fairly simple - most analyses have three main sections:\n\ncode\nresults\ndata\n\nYet each of these sections have extremely different requirements.\nCode should:\n\nBe version controlled\nBe publically accessible\nHave 1 analysis pipeline that logically and sequentially details all steps of the data cleaning, analysis, and result generation\n\nResults should:\n\nBe immediately shared with close collaborators\nHave each set of results saved and accessible, so that you can see how your results have changed over time (i.e. “if we run the code today, do we get similar results to yesterday?”)\n\nData should:\n\nBe encrypted (if sensitive)\nNot stored on the cloud (if sensitive)"
   },
   {
-    "objectID": "post/2021-11-18-poster-prize-for-sykdomspulsen/poster-prize-for-sykdomspulsen.html",
-    "href": "post/2021-11-18-poster-prize-for-sykdomspulsen/poster-prize-for-sykdomspulsen.html",
-    "title": "Sykdomspulsen Receives Prize for Best Poster",
-    "section": "",
-    "text": "Sykdomspulsen’s poster “Sykdomspulsen - An exciting and forward-looking infrastructure and website for the real-time surveillance of Covid-19, other infections, and deaths” received the prize for “Best Poster” at Helse- og Kvalitetsregisterkonferansen 2021.\nRead more about it here!.\n\nknitr::include_graphics(\"screenshot.png\")"
-  },
-  {
     "objectID": "post/2022-06-08-plnr-version-2022-6-8-published-on-cran/plnr-version-2022-6-8-published-on-cran.html",
     "href": "post/2022-06-08-plnr-version-2022-6-8-published-on-cran/plnr-version-2022-6-8-published-on-cran.html",
     "title": "R-Package “plnr” (version 2022.6.8) Published on CRAN",
@@ -61,6 +47,20 @@
     "title": "R-Package “plnr” (version 2022.6.8) Published on CRAN",
     "section": "Concept",
     "text": "Concept\n\n\n\n\n\n\n\nBroad technical terms\n\n\n\nObject\nDescription\n\n\nargset\nA named list containing a set of arguments.\n\n\nanalysis\nThese are the fundamental units that are scheduled in plnr:\n\n1 argset\n1 (action) function that takes two arguments\n\ndata (named list)\nargset (named list)\n\n\n\n\nplan\nThis is the overarching “scheduler”:\n\n1 data pull\n1 list of analyses\n\n\n\nDifferent types of plans\n\n\n\nPlan Type\nDescription\n\n\nSingle-function plan\nSame action function applied multiple times with different argsets applied to the same datasets.\n\n\nMulti-function plan\nDifferent action functions applied to the same datasets.\n\n\nPlan Examples\n\n\n\nPlan Type\nExample\n\n\nSingle-function plan\nMultiple strata (e.g. locations, age groups) that you need to apply the same function to to (e.g. outbreak detection, trend detection, graphing).\n\n\nSingle-function plan\nMultiple variables (e.g. multiple outcomes, multiple exposures) that you need to apply the same statistical methods to (e.g. regression models, correlation plots).\n\n\nMulti-function plan\nCreating the output for a report (e.g. multiple different tables and graphs).\n\n\n\nIn brief, we work within the mental model where we have one (or more) datasets and we want to run multiple analyses on these datasets. These multiple analyses can take the form of:\n\nSingle-function plans: One action function (e.g. table_1) called multiple times with different argsets (e.g. year=2019, year=2020).\nMulti-function plans: Multiple action functions (e.g. table_1, table_2) called multiple times with different argsets (e.g. table_1: year=2019, while for table_2: year=2019 and year=2020)\n\nBy demanding that all analyses use the same data sources we can:\n\nBe efficient with requiring the minimal amount of data-pulling (this only happens once at the start).\nBetter enforce the concept that data-cleaning and analysis should be completely separate.\n\nBy demanding that all analysis functions only use two arguments (data and argset) we can:\n\nReduce mental fatigue by working within the same mental model for each analysis.\nMake it easier for analyses to be exchanged with each other and iterated on.\nEasily schedule the running of each analysis.\n\nBy including all of this in one Plan class, we can easily maintain a good overview of all the analyses (i.e. outputs) that need to be run."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "R-Package “org” (version 2022.7.20) Published on CRAN\n\n\n\n\n\n“org” is a system to help you organize projects. Most analyses have three (or more) main sections: code, results, and data, each with different requirements (version control/sharing/encryption). You provide folder locations and ‘org’ helps you take care of the details.\n\n\n\n\n\n\nJul 21, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nCustom Airflow Docker Operator (Poor-Man’s Kubernetes)\n\n\n\n\n\nAirflow is a platform to programmatically author, schedule, and monitor workflows data. Operators are the main building blocks that encapsulate logic to do a unit of work. We have created a custom Airflow operator that 1) checks a remote YAML file and 2) then takes a decision to do one of two actions. This allows us to create a “poor-man’s Kubernetes”.\n\n\n\n\n\n\nJul 18, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nR-Package “plnr” (version 2022.6.8) Published on CRAN\n\n\n\n\n\n“plnr” is a system to plan analyses within the mental model where you have one (or more) datasets and want to run either A) the same function multiple times with different arguments, or B) multiple functions. This is appropriate when you have multiple strata (e.g. locations, age groups) that you want to apply the same function to, or you have multiple variables (e.g. exposures) that you want to apply the same statistical method to, or when you are creating the output for a report and you need multiple different tables or graphs.\n\n\n\n\n\n\nJun 8, 2022\n\n\nRichard Aubrey White\n\n\n\n\n\n\n  \n\n\n\n\nSykdomspulsen Receives Prize for Best Poster\n\n\n\n\n\nSykdomspulsen received the prize for best poster at Helse- og Kvalitetsregisterkonferansen 2021.\n\n\n\n\n\n\nNov 18, 2021\n\n\nRichard Aubrey White\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "post/2021-11-18-poster-prize-for-sykdomspulsen/poster-prize-for-sykdomspulsen.html",
+    "href": "post/2021-11-18-poster-prize-for-sykdomspulsen/poster-prize-for-sykdomspulsen.html",
+    "title": "Sykdomspulsen Receives Prize for Best Poster",
+    "section": "",
+    "text": "Sykdomspulsen’s poster “Sykdomspulsen - An exciting and forward-looking infrastructure and website for the real-time surveillance of Covid-19, other infections, and deaths” received the prize for “Best Poster” at Helse- og Kvalitetsregisterkonferansen 2021.\nRead more about it here!.\n\nknitr::include_graphics(\"screenshot.png\")"
   },
   {
     "objectID": "post/2022-07-18-custom-airflow-docker-operator/custom-airflow-docker-operator.html",
