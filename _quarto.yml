@@ -15,7 +15,7 @@ website:
       - text: "Packages"
         menu:
         - text: "Introduction"
-          href: packages_intro.qmd
+          href: packages.qmd
         - text: -------
         - text: Analysis planning
         - text: org

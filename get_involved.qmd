@@ -1,18 +1,15 @@
 ---
 title: "Get involved"
-description: Consortium for Statistics in Disease Surveillance
 ---
 
-# Contribute to CSIDS / csverse
+CSIDS welcomes [contributions](https://www.github.com/csids/) from the R and public health community. You can:
 
-The CSIDS welcomes contributions from the R and public health community. You can 
+* Provide feedback on our R packages.
+* Submit issues.
+* Improve the documentation and use cases.
+* Fix a bug by creating a pull request.
 
-* provide feedback on our R packages;
-* file issues;
-* improve the documentation and use cases;
-* fix a bug by creating a Pull Request
-
-The CSIDS group looks forward to hearing from you!
+CSIDS looks forward to hearing from you!
 
 ### Contact
 

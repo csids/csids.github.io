@@ -1,41 +1,30 @@
 ---
 title: "About CSIDS"
-description: Consortium for Statistics in Disease Surveillance
+description: CSIDS (pronounced SEE-sids) is a group of researchers who are dedicated to improving disease surveillance in the age of data science.
+editor_options: 
+  chunk_output_type: console
 ---
 
+## Team
 
-## Overview
+### Chi Zhang
 
-[CSIDS: the Consortium for Statistics in Disease Surveillance](https://www.csids.no) (previously Sykdomspulsen) is a real-time analysis and disease surveillance system designed and developed at the [Norwegian Institute of Public Health](https://www.fhi.no) (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.
+::: {.column-margin}
+![Chi Zhang](resources/photos/chi.jpg)
+:::
 
-### R packages
+[Chi](https://andreaczhang.github.io) is a statistical programmer at the Faculty of Medicine, University of Oslo. She develops open source tools (R packages, quarto websites) in her daily work.
 
-[csverse](https://www.csids.no/packages.html) is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.
+As a part-time lecturer, she teach statistics courses at Oslo Centre for Biostatistics and Epidemiology (OCBE) and R programming at the Carpentries workshops at University of Oslo.
 
-### From Sykdomspulsen to CSIDS
+### Richard Aubrey White
 
-In November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to [CSIDS: the Consortium for Statistics in Disease Surveillance](https://github.com/csids). Please refer to CSIDS for ongoing developments.
+::: {.column-margin}
+![Richard Aubrey White](resources/photos/richard.jpg)
+:::
 
+[Richard](https://www.rwhite.no) is an applied infectious diseases statistician based in Oslo, Norway. 
 
-### Quick stats
+He is currently employed as the project manager for the Norwegian Syndromic Surveillance System ([NorSySS](https://www.github.com/norsyss/)), a surveillance system of infectious diseases based on consultations with general practitioners and out-of-hours primary care facilities, based in the Norwegian Institute of Public Health (Folkehelseinstituttet).
 
-* We receive data from more than 15 data sources every day
-* 2 000 000 000+ rows of data and results (1TB)
-* 1 000+ database tables
-* 1 000 000+ analyses per day
-* 1 000+ automatic reports per day
-
-<img src="resources/posters/conference_handout_1.jpg" width="500"/>
-
-
-<img src="resources/posters/conference_handout_2.jpg" width="500"/>
-
-
-
-[Download poster (Norwegian)](resources/posters/conference_poster.pdf)
-
-<img src="resources/posters/poster.png" width="600"/>
-
-
-=======
->>>>>>> 2cd852ce0489abdbbd2633efb30dda9aacd3c847:about.qmd
+His international field experience includes performing needs assessments in [Sri Lanka](https://www.rwhite.no/articles/2022-wickremesekera.pdf) and developing/managing surveillance systems for Ebola in Sierra Leone, acute watery diarrhea/cholera in Mozambique, and maternal health in [Palestine](https://www.rwhite.no/articles/2021-isbeih.pdf).
